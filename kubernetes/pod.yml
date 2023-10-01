@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: chatbot-pod
+spec:
+  containers:
+    - name: chatbot-container
+      image: ai-chatbot
+      ports:
+        - containerPort: 8000 
