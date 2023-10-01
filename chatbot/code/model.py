@@ -36,7 +36,7 @@ def retrieval_qa_chain(llm, prompt, db):
 
 def load_llm():
     llm = CTransformers(
-        model = "../llama2_model/model  .bin",
+        model = "./model.bin",
         model_type="llama",
         max_new_tokens = 2048,
         temperature = 0.5
